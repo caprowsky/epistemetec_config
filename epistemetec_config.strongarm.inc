@@ -131,7 +131,7 @@ function epistemetec_config_strongarm() {
   $strongarm->value = array(
     'block' => array(
       'menu-menu-principale' => array(
-        'grid16-width' => 'grid16-9',
+        'grid16-width' => 'grid16-6',
         'fusion-general-styles' => array(
           'fusion-bold-links' => 'fusion-bold-links',
         ),
@@ -153,20 +153,22 @@ function epistemetec_config_strongarm() {
       'block-1' => array(
         'grid16-width' => 'grid16-2',
         'fusion-alignment' => 'fusion-right',
-        'fusion-content-alignment' => 'fusion-right-content',
+        'fusion-content-alignment' => 'fusion-center-content',
       ),
       'user-1' => array(
         'fusion-list-styles' => array(
           'fusion-list-vertical-spacing' => 'fusion-list-vertical-spacing',
         ),
       ),
-      'logintoboggan-0' => array(
-        'grid16-width' => 'grid16-1',
-      ),
       'user-0' => array(
         'grid16-width' => 'grid16-1',
       ),
       'block-2' => array(),
+      'lang_dropdown-0' => array(
+        'grid16-width' => 'grid16-3',
+        'fusion-alignment' => 'fusion-right',
+        'fusion-content-alignment' => 'fusion-right-content',
+      ),
     ),
     'comment' => array(
       'fedora_obj' => array(),
